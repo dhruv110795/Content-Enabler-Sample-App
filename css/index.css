@@ -1,0 +1,18 @@
+.side-nav{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.header{
+    margin: 20px 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text-styler{
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Player App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="site.json"></script>
+    </head>
+    <body>
+
+        <div id="content_enabler">
+            <nav class="navbar navbar-default" style="margin: 0px; padding-bottom: 20px;">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Content Enabler</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active" id="nav_who"><a href="#">Who</a></li>
+                        <li id="nav_what"><a href="#">What</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="container_who">
+                <div class="col-md-4" style="border-right: 1px solid #3333; padding: 0; background-color: d4d4d4;">
+                    <ul class="nav flex-column" id="who_tabs">
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div id="who_concept">
+                            <div class="component col-md-12" id="content_image" >
+                            </div> 
+                        
+                        </div>
+                        <div id="who_senario"></div>
+                        <div id="who_resources"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="js/main.js" async defer></script>
+    </body>
+</html>
